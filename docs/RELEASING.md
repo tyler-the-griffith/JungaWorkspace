@@ -88,7 +88,7 @@ review before it lands:
 
 ## Part 2 — deploying to the website
 
-`tylergriffith.us` is the repo [`tyler-grffith/ProfessionalWebsite`](https://github.com/tyler-grffith/ProfessionalWebsite),
+`tylergriffith.us` is the repo [`tyler-the-griffith/ProfessionalWebsite`](https://github.com/tyler-the-griffith/ProfessionalWebsite),
 checked out as a sibling directory (`../tylergriffith.us`). It has **no build step**: it vendors this
 app's built output as plain static files under `JungaWorkspace/`, and the live server updates by
 pulling that repo (decision 33).

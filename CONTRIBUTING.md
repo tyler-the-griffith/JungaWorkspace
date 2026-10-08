@@ -1,15 +1,15 @@
 # Collaborating on Junga Workspace
 
-Repository: https://github.com/tyler-grffith/JungaWorkspace
+Repository: https://github.com/tyler-the-griffith/JungaWorkspace
 
 ## First checkout
 
 Install Git and Node.js 24 LTS. Contributors with direct repository access should authenticate their own GitHub account (for example, `gh auth login` and `gh auth setup-git`). Do not copy tokens between computers or put them in the repository.
 
-**Before [the initial application PR (#1)](https://github.com/tyler-grffith/JungaWorkspace/pull/1) is merged**, the runnable prototype is on `codex/github-collaboration`:
+**Before [the initial application PR (#1)](https://github.com/tyler-the-griffith/JungaWorkspace/pull/1) is merged**, the runnable prototype is on `codex/github-collaboration`:
 
 ```sh
-git clone --branch codex/github-collaboration https://github.com/tyler-grffith/JungaWorkspace.git
+git clone --branch codex/github-collaboration https://github.com/tyler-the-griffith/JungaWorkspace.git
 cd JungaWorkspace
 npm ci
 npm run dev
@@ -18,7 +18,7 @@ npm run dev
 **After Tyler merges the initial application PR**, use an ordinary clone of `main`:
 
 ```sh
-git clone https://github.com/tyler-grffith/JungaWorkspace.git
+git clone https://github.com/tyler-the-griffith/JungaWorkspace.git
 cd JungaWorkspace
 npm ci
 npm run dev
